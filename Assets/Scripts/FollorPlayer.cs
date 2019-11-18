@@ -16,7 +16,7 @@ public class FollorPlayer : MonoBehaviour
     void Update() 
     { 
      // offset the camera behind the player by adding to the player's posltion
-     transform.position = player.transform.position+ new Vector3(0,5,-7);
+     transform.position = player.transform.position + offset;
     }
 
 
